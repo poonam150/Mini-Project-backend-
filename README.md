@@ -8,6 +8,7 @@ A simple backend web application built with Node.js, Express, and MongoDB. Featu
 - Create and manage posts
 - Like/unlike posts
 - Profile page with user posts
+- Upload and manage profile pictures
 - Cookie-based session management
 
 ## Technologies Used
@@ -16,6 +17,7 @@ A simple backend web application built with Node.js, Express, and MongoDB. Featu
 - **Database**: MongoDB with Mongoose
 - **Authentication**: JWT, bcrypt
 - **Templating**: EJS
+- **File Upload**: Multer
 - **Other**: cookie-parser
 
 ## Installation
@@ -43,6 +45,7 @@ A simple backend web application built with Node.js, Express, and MongoDB. Featu
 
 ## Usage
 
+- Upload a profile picture from the profile upload page.
 - Register a new account or login.
 - Create posts from your profile.
 - View and like posts on the home page.
@@ -52,6 +55,8 @@ A simple backend web application built with Node.js, Express, and MongoDB. Featu
 
 - `app.js`: Main application file
 - `models/`: Database models (User, Post)
+- `config/`: Multer configuration for file uploads
+- `public/`: Static files and uploaded images
 - `views/`: EJS templates for rendering pages
 - `package.json`: Dependencies and scripts
 
